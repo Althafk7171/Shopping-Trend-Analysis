@@ -1,86 +1,44 @@
-# Shopping Trend Analysis 📊  
-**Exploratory Data Analysis (EDA) Project**
+# Shopping Trends Analysis
 
-## 📌 Project Overview
-This project focuses on **Exploratory Data Analysis (EDA) of shopping trends** to understand customer behavior, purchasing preferences, and the influence of factors such as **seasonality, demographics, and discounts**.
+Shopping Trends Analysis is an Exploratory Data Analysis project focused on understanding customer purchasing behavior, product preferences, seasonal shopping patterns, and the impact of discounts on sales.
 
-The analysis aims to generate **actionable insights** that can help businesses improve **marketing strategies, inventory planning, and customer targeting**.
-
-This project was completed as an **academic EDA project** using Python and data visualization techniques. :contentReference[oaicite:0]{index=0}
+The project uses a shopping trends dataset containing customer demographics, purchase details, product categories, payment methods, discounts, and seasonal attributes. The analysis helps identify useful business insights for marketing, inventory planning, and customer targeting.
 
 ---
 
-## 🗂️ Repository Structure
-- `shopping_trends.csv` – Dataset containing shopping transaction records  
-- `Shopping Trends Analysis.ipynb` – Jupyter Notebook with complete EDA  
-- `Online trends analysis.pptx` – Presentation summarizing key insights  
-- `Eda Project final report.pdf` – Detailed project documentation  
+## Project Overview
+
+Retail businesses often face challenges in understanding customer behavior, product demand, seasonal preferences, and the effectiveness of discounts or promotions.
+
+This project performs Exploratory Data Analysis on shopping transaction data to uncover patterns in customer purchases, demographics, seasonal trends, product categories, and discount usage.
+
+The main goal is to provide actionable insights that can help businesses improve decision-making in marketing, inventory management, and customer engagement.
 
 ---
 
-## 🧠 Problem Statement
-Retail businesses generate large volumes of transactional data but often lack insights into:
-- Seasonal buying patterns  
-- Demographic purchasing behavior  
-- Effectiveness of discounts and promotions  
+## Problem Statement
 
-This project explores these aspects through structured EDA.
+Retail businesses need to understand the factors that influence customer purchasing behavior. Customer age, gender, season, product category, discount usage, and payment methods can all affect shopping patterns.
+
+This project analyzes shopping trend data to identify key patterns and relationships that can support better business strategies.
 
 ---
 
-## 🛠️ Tools & Technologies
-- **Python 3.9**
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- Jupyter Notebook
+## Objectives
+
+- Analyze customer demographics such as age and gender
+- Identify popular product categories and frequently purchased items
+- Study seasonal shopping patterns
+- Understand the impact of discounts and promotions
+- Compare purchase behavior across gender and product categories
+- Visualize important shopping trends using charts
+- Provide insights for marketing and inventory planning
 
 ---
 
-## 🔍 Methodology
-The analysis followed a structured EDA pipeline:
-1. **Data Loading & Cleaning**
-   - Checked missing values and duplicates
-   - Standardized data formats
-2. **Univariate Analysis**
-   - Age distribution
-   - Gender distribution
-   - Purchase amount analysis
-3. **Categorical Analysis**
-   - Item purchased
-   - Product category
-   - Payment methods
-4. **Seasonal & Multivariate Analysis**
-   - Sales trends across seasons
-   - Category-wise seasonal demand
-   - Gender vs purchase amount
-5. **Data Visualization**
-   - Histograms, bar charts, pie charts, and grouped bar charts
+## Dataset
 
----
+The dataset used in this project is:
 
-## 📈 Key Insights
-- **Clothing** is the most purchased category
-- **Male customers** contribute higher total purchase value
-- Purchases are **almost evenly distributed across seasons**
-- **Discounts significantly increase purchase activity**
-- Certain product categories show **season-specific demand spikes**
-
----
-
-## 📊 Sample Visualizations
-- Age distribution histogram with density curve  
-- Gender-wise purchase distribution  
-- Category-wise and season-wise purchase analysis  
-- Grouped bar charts for seasonal category trends  
-
-(All visualizations are available in the notebook and report.) :contentReference[oaicite:1]{index=1}
-
----
-
-## 🚀 How to Run the Project
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/Shopping-Trend-Analysis.git
+```text
+shopping_trends.csv
