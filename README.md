@@ -295,22 +295,3 @@ This repository includes:
 This project is developed for academic and learning purposes.
 
 ---
-
-## Repository Topics
-
-Recommended GitHub topics:
-
-```text
-data-analysis
-exploratory-data-analysis
-shopping-trends
-customer-behavior
-retail-analytics
-python
-pandas
-matplotlib
-seaborn
-plotly
-jupyter-notebook
-data-visualization
-```
